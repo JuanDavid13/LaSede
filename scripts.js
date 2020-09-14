@@ -24,3 +24,8 @@ window.addEventListener("scroll", function(){
         }
     }
 })
+
+
+function display_options(){
+    console.log("not supperted yet");
+}

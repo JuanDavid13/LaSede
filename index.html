@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Sede</title>
     <link rel="stylesheet" href="Stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -127,6 +127,9 @@
         </a>
         <a href="#" class="changetodark">Galería</a>
         <a href="#" class="changetodark">Contactar</a>
+        <a href="javascript:void(0);" class="icon changetodark" onclick="display_options()">
+            <i class="material-icons icon">menu</i>
+          </a>
     </nav>
 
     <header id="header">
@@ -245,8 +248,10 @@
 
     </header>
     <section id="menu">
-        <h1>Menu</h1>
-
+        <h1 class="title">Menu</h1>
+        <div id="imagemenu">
+            <img id="tostadas" src="fotosbar/foto2.jpg" alt="tostadas">
+        </div>
     </section>
 
     <script src="scripts.js"></script>
